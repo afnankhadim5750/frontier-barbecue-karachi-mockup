@@ -1,0 +1,81 @@
+{
+ "archetype": "Swiss grid — ruled sections, numbered eyebrows (01–09), asymmetric 12-column grid, charcoal smoke base with bone sections; executed visibly differently from Tuscany Courtyard (the only other Swiss-grid Pakistani site): Tuscany is ivory/wine editorial with an oversized-type hero and one small portrait image; this is a charcoal/bone smokehouse with a full-width flame-photo hero, headline set low over the photo, dark trust band, and a karahi menu board as the lead section",
+ "business": "Frontier Barbecue, Clifton Boat Basin, Karachi",
+ "colour": "Charcoal smoke #1B1A18 base, bone #F4EEE2 light sections, deep ember red #A6261F accent (white on #A6261F 7.20:1; deep red #7E1B14 small text on bone 8.85:1), smoke grey #6E675F secondary text on bone, hairline rules #D8CFC0 / #3A352F. No orange UI accents. Banned combo (cream bg + serif heading + rounded pill buttons + boxed hero photo): 1 of 4 (bone sections only — display type is Barlow Condensed grotesque, buttons are sharp-cornered rectangles, hero is a full-bleed photo)",
+ "date": "2026-11-08",
+ "fonts": "Barlow Condensed (display, 600/700, uppercase) + Barlow (body, 400/500/600/700) via Google Fonts — neither used by any prior Pakistani site",
+ "hero": "Full-width close-up photo of meat skewers over open flames (Pexels 2233729) filling the hero width, dark gradient at the foot, headline 'KARAHI, STRAIGHT OFF THE COALS.' set low over the photo in Barlow Condensed — NOT split 50/50, NOT mosaic, NOT carousel, NOT type-led with one small image, NOT centred badge",
+ "image_count": 24,
+ "image_ids": [
+  "pexels:2233729",
+  "pexels:29684989",
+  "pexels:29685045",
+  "pexels:29684990",
+  "pexels:29685110",
+  "pexels:30203312",
+  "pexels:30203318",
+  "pexels:12738462",
+  "pexels:38843562",
+  "pexels:29358856",
+  "pexels:37924348",
+  "pexels:5410460",
+  "pexels:17138059",
+  "pexels:26733053",
+  "pexels:33556462",
+  "pexels:29374766",
+  "pexels:36579787",
+  "pexels:28086336",
+  "pexels:36169141",
+  "pexels:37223237",
+  "pexels:33194595",
+  "pexels:17988080",
+  "pexels:9609849",
+  "pexels:34193415"
+ ],
+ "image_notes": "All Pexels, all viewed on contact sheets before use. Rejected after viewing: 12412203 (wine glasses), 25884470/25884472 (branded product packaging in frame), 25957006 (home dinner, not a restaurant), 36068791 (Indonesian ketupat leaf packets), 4661935 (Western Christmas turkey dinner), 8507683 (Western family), 33617984 (real Karachi karahi night scene but shows a competitor's 'Hassan Koila Karahi' sign — not used). No image ID reused from design-log.json (checked programmatically); no repeat within the site. Three noisy 1600px files (karahi-reshmi-handi, grill-mutton-chops, gallery-coals-closeup) were re-encoded at 1400px/q62-72 to stay under 250KB; filenames and srcsets updated to -1400.webp. IMAGE FIX 8 Nov 2026 (cross-site overlap): Pexels 29685076 (Chicken Makhni Karahi dish photo) and 36890237 (gallery kebabs over coals) were also used by the sibling Nirala Hotel site — replaced in FRONTIER ONLY, same filenames, no HTML/copy changes: 29685076 → 29684990 (chicken karahi in steel karahi with brass handles on white background, square, viewed) and 36890237 → 36169141 (vertical seekh kebab skewers beside glowing red coals with smoke, dark background, viewed; 1600px file lightly denoised + q70 to stay under 250KB). Both new IDs verified absent from design-log.json and all 15 sites' design-dna.json, and hash-checked different from the old Pexels originals. Nirala keeps its copies of 29685076/36890237.",
+ "logo": "No verified real logo found — no verified Facebook page for the Boat Basin shop (graph.facebook.com picture lookups for five likely handles all 400; a numeric ID from a directory listing turned out to be 'Keamari Sea Foods', a different business, and was not used). Clean text wordmark kept, no logo invented.",
+ "nav": [
+  "Karahi",
+  "The Grill",
+  "Live Fire",
+  "Family Hall",
+  "Gallery",
+  "Visit"
+ ],
+ "section_order": [
+  "hero (full-width flame photo, headline low over photo)",
+  "trust bar / animated counters (charcoal band: 4.3 rating, 2,914 reviews, 12 PM–3 AM, Boat Basin)",
+  "01 Karahi board (6 dishes with photos; Prices on request once)",
+  "02 The Grill (horizontal-scroll cards: seekh kabab, malai tikka, kastoori boti, beef bihari boti, mutton chops)",
+  "03 Live Fire (feature: cooked in front of you, 4-step process, 3 photos)",
+  "04 Family Hall (indoor + outdoor, renovated family hall, 2 photos + verbatim reviewer quote card added in self-review)",
+  "05 The Story (family-run kitchen, attributed to reviewers; naan-vendor photo; 1972 claim explicitly not stated as fact)",
+  "06 Why locals choose (6 review-theme cards + one verbatim Google review with source link)",
+  "07 Gallery (lightbox, 6 photos)",
+  "08 Visit & hours (map + hours card, address, phone, Google Maps embed + link)",
+  "09 FAQ accordion",
+  "Contact CTA (click-to-call)",
+  "footer"
+ ],
+ "signature_elements": [
+  "Karahi menu board (6 verified dishes with photos, numbered Swiss-grid rows)",
+  "Live-fire feature with 4-step cooked-to-order process (Order → Fire → Karahi → Table)",
+  "Animated counters (real numbers only: 4.3 Google rating, 2,914 Google reviews, 12 PM–3 AM daily hours, Boat Basin Clifton)",
+  "Lightbox gallery (6 photos, keyboard + Escape/backdrop close)",
+  "Map + hours card (address, 7-day hours table, click-to-call, Google Maps embed + link)",
+  "FAQ accordion (native details/summary)"
+ ],
+ "slug": "frontier-barbecue-karachi-mockup",
+ "summary_5_lines": [
+  "Business: Frontier Barbecue, Shop # SC-10, Sea Breeze Center, Block 5 Clifton, Boat Basin, Karachi — BBQ and mutton karahi restaurant, 4.3 stars on Google from over 2,900 reviews, phone +92 300 9281235, open daily 12:00 PM–3:00 AM.",
+  "Why chosen: Day 5 first reserve from the phone-confirmed top-15 shortlist — Blazon Salon dropped out (no live listing verifiable; F-11 salon now trades as House of Salons with its own website), and Frontier is a Boat Basin karahi name with no official website.",
+  "Design direction: Swiss grid in charcoal smoke, bone and deep ember red, Barlow Condensed + Barlow, full-width flame-skewer hero with the headline set low over the photo — executed visibly differently from Tuscany, the only other Swiss-grid Pakistani site (see 6-axis diff in the report).",
+  "Signature elements: karahi menu board, live-fire feature with a 4-step cooked-to-order process, animated counters (real numbers only), lightbox gallery, FAQ accordion, map + hours card.",
+  "Not verified: founding year (a '1972' claim is reviewer-only — not stated as fact); menu prices ('Prices on request' once); delivery/takeaway policy (call to confirm); whether the 12 PM–3 AM hours hold every day vs reviewers' evening-only description (site shows JetlyGo hours with a call-ahead note); no verified logo (clean text wordmark, none invented)."
+ ],
+ "uniqueness_check": {
+  "vs_last_10_archetypes": "Swiss grid was last used by Tuscany (Day 1, entry 2) — outside the last 10 sites (entries 3–12: brutalist, editorial, collage, bento, playful rounded, retro poster, dark luxury, clean clinical, scrolling story, full-bleed cinematic). Archetype does not repeat any of the last 10.",
+  "vs_siblings_day5": "Nirala Hotel is a split-screen grand-hotel site; Khadim Sweets & Bakers is a bold-brutalist-type sweets site (Unsplash). This is a Swiss-grid BBQ smokehouse (Pexels) — archetype, fonts, colours, nav and section order all differ; Pexels IDs cannot collide with Khadim's Unsplash set.",
+  "vs_tuscany_swiss_grid": "Same archetype label, different execution on all 6 axes: (1) archetype execution — Tuscany ivory editorial grid, this charcoal/bone smokehouse grid; (2) hero — Tuscany oversized type + one small portrait image, this full-width flame photo with headline low over it; (3) fonts — Playfair+Karla vs Barlow Condensed+Barlow; (4) colour — ivory/wine/sage vs charcoal/bone/ember red; (5) signature — Tuscany tabbed menu + signature cards, this karahi board + live-fire process + counters; (6) nav/section order — own set (Karahi/The Grill/Live Fire/Family Hall/Gallery/Visit) vs Tuscany's Italian/Mediterranean/Thai tabbed flow."
+ }
+}
